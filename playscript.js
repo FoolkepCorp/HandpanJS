@@ -270,7 +270,7 @@ window.addEventListener('load', (e) => {
 					momult = Math.sin(funcTe / reachTime * Math.PI / 2);
 				}
 				multObject.mult = momult;
-				console.log(momult);
+				//console.log(momult);
 				multObject.multTarget = multObject.mult;
 				multObject.lastMult = multObject.mult;
 			}
