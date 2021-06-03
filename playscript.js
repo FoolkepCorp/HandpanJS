@@ -245,7 +245,7 @@ window.addEventListener('load', (e) => {
 			multObject.timeElapsed = 0;
 		}
 		const reachTime = 5;
-		const delay = 1; 
+		const delay = 1;
 		if (booming) {
 			const te = multObject.timeElapsed;
 			let funcTe = te;
@@ -254,7 +254,9 @@ window.addEventListener('load', (e) => {
 			}
 			if (te >= reachTime + delay) {
 				if (boomingToStart) {
-					document.querySelector("#boomBtn").classList.remove("booming");
+					if (document.querySelector("#boomBtn")) {
+						document.querySelector("#boomBtn").classList.remove("booming");
+					}
 					booming = false;
 				} else {
 					boomingToStart = true;
