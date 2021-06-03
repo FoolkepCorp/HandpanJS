@@ -80,7 +80,7 @@ const addModel = () => {
 	const dracoLoader = new DRACOLoader();
 	dracoLoader.setDecoderPath('/draco/');
 	gltfLoader.setDRACOLoader(dracoLoader);
-	gltfLoader.load('./handpan2.gltf', modelReady);
+	gltfLoader.load('https://uploads-ssl.webflow.com/602fc612249a10289b6c308f/60b92637ba80ad6cf5770b64_handpan2.gltf.txt', modelReady);
 };
 
 const modS = 0.01;
