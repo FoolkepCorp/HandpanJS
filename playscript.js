@@ -79,7 +79,7 @@ window.addEventListener('load', (e) => {
 	};
 
 	let sprites = [];
-	const map = new THREE.TextureLoader().load("./circle.png");
+	const map = new THREE.TextureLoader().load("https://uploads-ssl.webflow.com/602fc612249a10289b6c308f/60b925bb0d7d46cd6b50a8b9_circle.png");
 	const body = document.querySelector('body');
 	const cl = {
 		enabled: false,
