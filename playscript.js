@@ -26,7 +26,7 @@ window.addEventListener('load', (e) => {
 	spa(new THREE.Vector3(-0.431854656310732, 0.3356692403969072, -0.9148133909645234), urlPre + "75b460682f5b572947_2A3.wav.txt");
 	spa(new THREE.Vector3(0, 0.8234941085464847, 0), urlPre + "70b418ce1a6418d602_1D3.wav.txt");
 
-	const canvas = document.querySelector('#webglBox');
+	const canvas = document.querySelector('canvas.webgl');
 	var scrollY = window.scrollY;
 	multObject.mult = 1;
 	multObject.multTarget = 1;
