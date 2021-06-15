@@ -123,7 +123,7 @@ window.addEventListener('load', (e) => {
 				cl.enabled = true;
 			}
 		} else {
-			if (!cl.enabled && cl.toStart) {
+			if (!cl.enabled && cl.toStart && playing) {
 				if (typeof oc !== 'undefined') {
 					raycaster.setFromCamera(mouse, camera);
 					const intersects = raycaster.intersectObjects(scene.children);
